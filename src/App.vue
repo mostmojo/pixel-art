@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Pixel Art</h1>
     <Canvas />
   </div>
 </template>
