@@ -47,6 +47,6 @@ export default {
   background-color: rgb(3, 169, 244);
 }
 .darkblue {
-  background-color: rgb(33, 150, 243);
+  background-color: rgb(18, 88, 145);
 }
 </style>
