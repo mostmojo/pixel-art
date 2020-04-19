@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1 style="color: #fff; padding-right: 1rem;">Pixel art</h1>
     <ColorPicker :color="color" />
     <Canvas :pixels="pixels" />
   </div>
@@ -16,7 +17,7 @@ export default {
   data: function() {
     return {
       color: defaultColor,
-      pixels: Array(30 * 25)
+      pixels: Array(30 * 30)
         .fill()
         .map(() => defaultColor)
     };
