@@ -22,6 +22,6 @@ export default {
 .canvas {
   display: flex;
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 56.25rem;
 }
 </style>

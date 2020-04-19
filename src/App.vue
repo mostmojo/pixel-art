@@ -16,7 +16,7 @@ export default {
   data: function() {
     return {
       color: defaultColor,
-      pixels: Array(30 * 30)
+      pixels: Array(30 * 25)
         .fill()
         .map(() => defaultColor)
     };
